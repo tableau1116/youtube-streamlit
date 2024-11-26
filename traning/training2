@@ -1,0 +1,7 @@
+text = "I am learning python language"
+split_text = text.split(" ")
+counter = 0
+for word in split_text:
+    if len(word) >= 3:
+        counter += 1
+print(f"単語の数は:{counter}")
