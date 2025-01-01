@@ -1,0 +1,20 @@
+/*見出しのテキストの色*/
+h1{
+    color: gray;
+}
+
+.highlight{
+    color: red;
+}
+
+#link-title{
+    color: purple;
+}
+
+#link-title p{
+    color: green;
+}
+
+a:hover{
+    color:gray;
+}

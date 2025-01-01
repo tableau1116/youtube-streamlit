@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="toiawase.css">
+</head>
+<body>
+    
+
+    <div class="contact-form">
+        <p class="title">お問い合わせはこちら</p>
+
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <input type="hidden" name="accessKey" value="8ca4d0eb-fd39-404d-a900-fe2aa21f4f8a"> <!-- Required -->
+            <div class="item">
+                <label class="label">お名前</label>
+                <input type="text" class="inputs" name="name" />
+            </div>    
+
+            <div class="item">
+                <label class="label">メールアドレス</label>
+                <input type="email" class="inputs" name="email" required />  
+            </div>
+                
+            <!-- <div class="item">
+                <p class="label">お問い合わせ種別</p>
+                <div class="inputs">
+                    <input type="radio" name="menu" id="s" value="s" /> <label for="s">ご質問</label>
+                    <input type="radio" name="menu" id="a" value="a" /> <label for="a">お仕事のご依頼</label>
+                    <input type="radio" name="menu" id="b" value="b" /> <label for="b">その他</label>
+                </div>                   
+
+            </div> -->
+
+            <div class="item">
+                <label class="label">お問い合わせ内容</label>
+                <textarea class="inputs" name="message" placeholder="お問い合わせ内容はこちら"></textarea>
+
+            </div>
+
+            <div class="button-area">
+                <input type="submit" value="  送   信  "/>
+                <input type="reset" value="リセット">
+            </div>
+            
+        
+        
+        
+        </form>
+    </div>
+
+        
+</body>
+</html>
